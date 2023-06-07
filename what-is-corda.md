@@ -13,10 +13,12 @@
 ## Novel Features of Corda
 
 1.  Corda has no unnecessary global sharing of data
+    -   Data is shared only on a need-to-know basis
 2.  All messages shared are TLS-encrypted and sent over AMQP/1.0
 3.  Message senders need to know the identity of recipients.
 4.  Unspent Transaction Output (UTXO) used for recording states (just like Bitcoin)
 5.  Corda supports a variety of consensus mechainisms
+    -   Corda is not restricted to only one consensus algorithm
 6.  Transactions are validated by parties involved in that transaction rather than a broader pool of independent validators
 7.  Corda records an explicit link between human-language legal prose documents and smart contract code
 8.  Corda suppor industry-standard protocols AMQP,JDBC, etc
