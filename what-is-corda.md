@@ -22,3 +22,14 @@
 6.  Transactions are validated by parties involved in that transaction rather than a broader pool of independent validators
 7.  Corda records an explicit link between human-language legal prose documents and smart contract code
 8.  Corda suppor industry-standard protocols AMQP,JDBC, etc
+
+## Why Corda is limited to transactions
+
+1.  In traditional blockchain, when adding a block to the blockchain, the process is distributed across the network of nodes
+    -  As a result, the process is time-consuming
+    -   In Corda, when adding a block to the blockchain, only relevant parties are involved saving time.
+2.  In traditional blockchain, entire history of transactions of all previous blocks are captured. In Corda, only transactions from elated parties are captured to protect privacy.
+
+3.  Benefits
+    -   Transaction details are maintained privately, increasing scalability
+    -   Uniqueness is maintained with validation available over P2P
