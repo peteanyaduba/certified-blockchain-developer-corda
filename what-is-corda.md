@@ -29,6 +29,11 @@
     -  As a result, the process is time-consuming
     -   In Corda, when adding a block to the blockchain, only relevant parties are involved saving time.
 2.  In traditional blockchain, entire history of transactions of all previous blocks are captured. In Corda, only transactions from elated parties are captured to protect privacy.
+    -   Not node has the entire history of all the transactions in the network
+    -   This makes Corda suited for banking where data privacy is more important
+    -   Hence, transaction details are private, limited to only involved parties
+    -   It can also check if a state consumed by a given service or transaction has been consumed before.
+        -   This helps to eliminate double spending
 
 3.  Benefits
     -   Transaction details are maintained privately, increasing scalability
